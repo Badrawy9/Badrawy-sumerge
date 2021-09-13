@@ -1,0 +1,46 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #score-board {
+    width: 750px;
+    position: relative;
+    background: rgb(203, 238, 4);
+    border: 4px solid black;
+    border-radius: 12px;
+    text-align: center;
+  }
+  #level {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  #board-container {
+    width: 750px;
+    height: 375px;
+    position: relative;
+    background: rgb(214, 24, 151);
+    border: 4px solid black;
+    border-radius: 12px;
+    cursor: crosshair;
+  }
+  #leftSide, #rightSide {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+  }
+  #leftSide {
+    left: 0;
+  }
+  #rightSide {
+    left: 400px;
+    border-left: 2px solid black;
+  }
+  #leftSide img, #rightSide img {
+    position: absolute;
+    cursor: pointer;
+  }
